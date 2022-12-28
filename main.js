@@ -1,6 +1,6 @@
-//Randomly pick an element from an array
+//Randomly pick an element from the first quarter of an array
 function pickElement(arr) {
-    return arr[Math.floor(Math.random() * arr.length)];
+    return arr[Math.floor(Math.random() * (arr.length/4))];
 } 
 
 //Load JSON, pick a quote
